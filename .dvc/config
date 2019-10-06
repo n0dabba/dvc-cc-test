@@ -1,0 +1,5 @@
+['remote "dvc_connection"']
+url = ssh://baumapa@dt1.f4.htw-berlin.de:/mnt/md0/baumapa/github.com/n0dabba/dvc-cc-test.git
+ask_password = true
+[core]
+remote = dvc_connection
