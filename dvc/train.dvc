@@ -2,18 +2,23 @@ cmd: python source/train.py --num_of_kernels 5 --activation_function relu
 wdir: ..
 deps:
 - path: source/train.py
+  md5: 0542710b9ee281e43016078356205edb
 outs:
 - path: tensorboard
   cache: true
   metric: false
   persist: false
+  md5: 1c4e33e45910f2b8b898dee318ff2071.dir
 - path: model.h5
   cache: true
   metric: false
   persist: false
+  md5: 1a05375b0b5afe6a280220628f99cada
 - path: summary.yml
   cache: true
   metric: true
   persist: false
 
 
+  md5: f8b4cfe21ffb258cb740079493428d6f
+md5: ed23c22fb9482e3345e77ebaae4ba815
