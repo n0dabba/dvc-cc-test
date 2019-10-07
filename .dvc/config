@@ -1,5 +1,0 @@
-['remote "dvc_connection"']
-url = ssh://baumapa@avocado01.f4.htw-berlin.de:/data/ldap/Data-Version-Control-Cache/github.com/n0dabba/dvc-cc-test.git
-ask_password = true
-[core]
-remote = dvc_connection
