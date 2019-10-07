@@ -71,7 +71,7 @@ execution:
   settings:
     access:
       auth: {password: '{{agency_password}}', username: '{{agency_username}}'}
-      url: https://agency.f4.htw-berlin.de/dt
+      url: https://agency.f4.htw-berlin.de/cc
     batchConcurrencyLimit: 12
     retryIfFailed: false
 redVersion: '8'
